@@ -1,0 +1,83 @@
+body {
+    background-color: #fa8f51;
+}
+
+h1 {
+    font-family: 'Lucida Bright';
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    border: solid;
+    border-width: 10px;
+}
+
+h1, nav {
+    color: red;
+    background-color: bisque;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    display: center;
+}
+
+
+nav ul li {
+    display: inline;
+    text-align: center;
+    padding: 100px;
+}
+
+nav {
+    text-align: center;
+    margin: 50px;
+    border: dotted;
+}
+
+.buy-now {
+    background-color: yellow;
+}
+
+figcaption {
+    background-color: rgb(71, 183, 135);
+    text-align: center;
+    font-style: italic;
+    padding-right: 50px;
+}
+
+ul li {
+    text-align: center;
+}
+
+img {
+    float: left;
+    padding-right: 50px;
+}
+
+#camper {
+    padding: 100px;
+}
+
+#porsche {
+    padding: 100px;
+}
+
+#mustang {
+    padding: 100px;
+}
+
+#jeep {
+    padding: 100px;
+}
+
+footer {
+    text-align: center;
+    background-color: bisque;
+    width: 100%;
+    height: 50px;
+}
+
+p {
+    padding-top: 15px;
+}
