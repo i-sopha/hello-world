@@ -1,5 +1,11 @@
 body {
-    background-color: #fa8f51;
+    background-color: bisque;
+    
+}
+
+main {
+
+
 }
 
 h1 {
@@ -10,10 +16,11 @@ h1 {
     border: solid;
     border-width: 10px;
     border-radius: 15%;
+
 }
 
 h1, nav {
-    color: red;
+    color: rgb(203, 70, 70);
     background-color: bisque;
 }
 
@@ -34,7 +41,6 @@ nav ul li {
 nav {
     text-align: center;
     margin: 50px;
-    border: dotted;
 }
 
 .buy-now {
@@ -42,7 +48,7 @@ nav {
 }
 
 figcaption {
-    background-color: rgb(71, 183, 135);
+    background-color: rgb(214, 232, 224);
     text-align: center;
     font-style: italic;
     padding-right: 50px;
@@ -63,6 +69,7 @@ img {
 
 #porsche {
     padding: 100px;
+
 }
 
 #mustang {
@@ -75,7 +82,7 @@ img {
 
 footer {
     text-align: center;
-    background-color: bisque;
+    background-color: rgb(86, 83, 79);
     width: 100%;
     height: 50px;
 }
