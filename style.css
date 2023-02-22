@@ -16,11 +16,10 @@ h1 {
     border: solid;
     border-width: 10px;
     border-radius: 15%;
-
+    color: rgb(203, 70, 70);
 }
 
 h1, nav {
-    color: rgb(203, 70, 70);
     background-color: bisque;
 }
 
@@ -65,10 +64,12 @@ img {
 
 #camper {
     padding: 100px;
+
 }
 
 #porsche {
     padding: 100px;
+
 
 }
 
@@ -82,7 +83,7 @@ img {
 
 footer {
     text-align: center;
-    background-color: rgb(86, 83, 79);
+    background-color: rgb(203, 70, 70);
     width: 100%;
     height: 50px;
 }
