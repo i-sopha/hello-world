@@ -1,6 +1,6 @@
 let userName = prompt("What is your name?");
 console.log(userName);
-let userChoice = prompt("Do you like legos?");
+let userChoice = prompt("Do you like legos " + userName + "?");
 console.log(userChoice);
 
 if (userName == "") {
@@ -22,8 +22,8 @@ if (userChoice == "yes" || userChoice == "yea" || userChoice == "sure") {
 let lego2 = document.getElementById("legos2");
 console.log(lego2);
 lego2.textContent = "Hello " + userName  + "!\r\n ";
-lego2.textContent += greeting
+lego2.textContent += greeting;
 
 let legoElm = document.getElementById("lego");
 console.log(legoElm);
-legoElm.textContent = "Hello, this is my personal lego collections page. Enjoy!";
+legoElm.textContent = "This is my personal lego collections page. Enjoy!";
