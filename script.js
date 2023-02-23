@@ -7,7 +7,6 @@ if (userName == "") {
     userName = "Stranger";
 };
 
-
 if (userChoice == "yes" || userChoice == "yea" || userChoice == "sure") {
     greeting = "You're in for a treat!";
 }   else if (userChoice == "no" || userChoice == "nah" || userChoice == "nope") {
@@ -16,14 +15,15 @@ if (userChoice == "yes" || userChoice == "yea" || userChoice == "sure") {
     greeting = "I'm not sure what you mean.";
 };
 
-// document.write("Hello " + userName  + "! ");
-// document.write(greeting);
-
-let lego2 = document.getElementById("legos2");
+let lego2 = document.getElementById("lego");
 console.log(lego2);
-lego2.textContent = "Hello " + userName  + "!\r\n ";
+lego2.textContent = "Hello " + userName + "! \r\n" ;
 lego2.textContent += greeting;
 
-let legoElm = document.getElementById("lego");
+let legoElm = document.getElementById("legos2");
 console.log(legoElm);
 legoElm.textContent = "This is my personal lego collections page. Enjoy!";
+
+let lego3 = document.getElementById("legos3");
+console.log(lego3);
+legoElm.textContent = "Thanks for visiting my page, " + userName  + "! Have a good day.";
