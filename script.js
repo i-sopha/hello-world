@@ -15,6 +15,9 @@ if (userChoice == "yes" || userChoice == "yea" || userChoice == "sure") {
     greeting = "I'm not sure what you mean.";
 };
 
+// document.getElementById('lego')
+// document.write("hello " + userName + greeting)
+
 let lego2 = document.getElementById("lego");
 console.log(lego2);
 lego2.textContent = "Hello " + userName + "! \r\n" ;
