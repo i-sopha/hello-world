@@ -20,10 +20,10 @@ console.log(lego2);
 lego2.textContent = "Hello " + userName + "! \r\n" ;
 lego2.textContent += greeting;
 
-let legoElm = document.getElementById("legos2");
-console.log(legoElm);
-legoElm.textContent = "This is my personal lego collections page. Enjoy!";
+// let legoElm = document.getElementById("legos2");
+// console.log(legoElm);
+// legoElm.textContent = "This is my personal lego collections page. Enjoy!";
 
-let lego3 = document.getElementById("legos3");
+let lego3 = document.getElementById("legos2");
 console.log(lego3);
 legoElm.textContent = "Thanks for visiting my page, " + userName  + "! Have a good day.";
