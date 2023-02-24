@@ -1,15 +1,17 @@
 function someQuestions() {
-    let userName = prompt("What is your name?");
+    let userName = "";
     console.log(userName);
-    if (userName == "") {
-        userName = alert("❗❌❗Stranger Danger❗❌❗");
-        userName = prompt("Try Again. What is your name?");
-        userName = "Stranger";
+    while (userName === "") {
+        userName = prompt("What is your name?");
+        if (userName == "") {
+            alert("❗❌❗Stranger Danger❗❌❗");
+            alert("Try Again.");
+        }
+
     }
     document.write("Hello " + userName + "! \r\n");
     return userName;
 };
-
 
 function greeting() {
     let userName = someQuestions();
@@ -28,8 +30,53 @@ function greeting() {
     return personalGreet;
 };
 
+function pickNum() {
+    let userPick = parseInt(prompt("Pick a number between 1-5"));
+    console.log(userPick);
+    // let myNum = 6;
+    if (userPick > 5) {
+        alert("i said pick a numebr between 1-5")
+        pickNum()
+    } else {
+        for (let i = 0; i < userPick; i++) {
+            document.write('<img src="./lego.png">');
+        }
+
+    }
+};
 
 
+
+
+
+
+
+
+// function someQuestions() {
+//     let userName = prompt("What is your name?");
+//     console.log(userName);
+//     if (userName == "") {
+//         userName = alert("❗❌❗Stranger Danger❗❌❗");
+//         userName = prompt("Try Again. What is your name?");
+//         document.write("Hello " + userName + "! \r\n");
+//         return userName;
+//         };
+
+
+
+
+
+// let myNum = 5;
+
+// for (let i = 0; i < myNum; i++){
+//     document.write('<img src="./lego.png">')
+// }
+
+
+
+// lastQuestion() {
+//     let userChoice = prompt("Pick a number between 1-5");
+// }
 
 
 
