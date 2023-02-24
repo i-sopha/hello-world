@@ -40,7 +40,7 @@ function pickNum() {
         pickNum()
     } else {
         for (let i = 0; i < userPick; i++) {
-            document.write('<img src="./mariolegostar.png">');
+            document.write('<img src="./images/mariolegostar.png">');
         }
 
     }
