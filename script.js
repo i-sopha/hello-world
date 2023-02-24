@@ -30,21 +30,28 @@ function greeting() {
     return personalGreet;
 };
 
+
 function pickNum() {
-    let userPick = parseInt(prompt("Pick a number between 1-5"));
+    let userPick = parseInt(prompt("What would you rate your lego building skills? Pick a number between 1-5"));
     console.log(userPick);
     // let myNum = 6;
     if (userPick > 5) {
-        alert("i said pick a numebr between 1-5")
+        alert("I said pick a number between 1-5.")
         pickNum()
     } else {
         for (let i = 0; i < userPick; i++) {
-            document.write('<img src="./lego.png">');
+            document.write('<img src="./mariolegostar.png">');
         }
 
     }
 };
 
+
+
+// else if (userPick === "") {
+//     alert("Please choose a number")
+//     pickNum()
+// }
 
 
 
